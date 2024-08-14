@@ -1,0 +1,31 @@
+:root {
+    font-family: "Rubik", sans-serif;
+}
+
+h1 {
+    color: var(--bg-color);
+    font-size: 19pt;
+    font-weight: 500;
+    margin: 25.5px auto 29.5px;
+}
+
+h2 {
+    margin: 0 0 7px;
+    color: var(--gray);
+    font-size: 8pt;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    margin: 0;
+    color: var(--black);
+    font-size: 15pt;
+    font-weight: 500;
+}
+
+input[type="text"] {
+    font-family: "Rubik", sans-serif;
+    font-size: 13.5pt;
+    font-weight: 400;
+}

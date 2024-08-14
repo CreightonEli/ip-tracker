@@ -15,27 +15,56 @@
 
   <title>IP Address Tracker</title>
 
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="dist/style.css">
 </head>
 <body>
-
-  IP Address Tracker
-
-  Search for any IP address or domain
-
-  IP Address
-  Location
-  Timezone
-    UTC <!-- add offset value dynamically using the API -->
-  ISP
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://creightoneli.github.io/">Elijah Creighton</a>.
-  </div>
+  <main>
+    <h1>IP Address Tracker</h1>
+    <div id="search-container">
+      <input type="text" placeholder="Search for any IP address or domain">
+      <button id="search-btn" onclick="">
+        <svg 
+          xmlns="http://www.w3.org/2000/svg" 
+          width="11" 
+          height="14">
+          <path fill="none" stroke="#FFF" stroke-width="3" d="M2 1l6 6-6 6"/>
+        </svg>
+      </button>
+    </div>
+  
+    <section>
+      <div class="info-container">
+        <h2>IP ADDRESS</h2>
+        <p>192.212.174.101</p>
+      </div>
+      <div class="vertical-divider"></div>
+      <div class="info-container">
+        <h2>LOCATION</h2>
+        <p>Brooklyn, NY 10001</p>
+      </div>
+      <div class="vertical-divider"></div>
+      <div class="info-container">
+        <h2>TIMEZONE</h2>
+        <p>
+          UTC -05:00<!-- add offset value dynamically using the API -->
+        </p>
+      </div>
+      <div class="vertical-divider"></div>
+      <div class="info-container">
+        <h2>ISP</h2>
+        <p>SpaceX Starlink</p>
+      </div>
+    </section>
+  </main>
+
+  <div id="map"></div>
+  
 </body>
 </html>
