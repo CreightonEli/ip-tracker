@@ -18,7 +18,7 @@ const ispEl = document.getElementById("isp-el");
 // Leaflet map setup
 const map = L.map('map').setView([40.7537, -73.9992], 13);
 const myIcon = L.icon({
-    iconUrl: '/images/icon-location.svg',
+    iconUrl: '../images/icon-location.svg',
     iconSize: [42, 50],
     iconAnchor: [21, 50]
 });

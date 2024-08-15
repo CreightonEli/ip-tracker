@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://creightoneli.github.io/)
-- Live Site URL: [Add live site URL here](https://creightoneli.github.io/)
+- Live Site URL: [https://creightoneli.github.io/ip-tracker](https://creightoneli.github.io/ip-tracker)
 
 ## My process
 

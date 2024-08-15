@@ -1,6 +1,7 @@
 html {
     margin: 0;
     padding: 0;
+    background-color: hsl(244, 41.9%, 42.5%);
 }
 
 body {
@@ -14,7 +15,7 @@ main {
     height: 300px;
     display: flex;
     flex-direction: column;
-    background-image: url(/images/pattern-bg-mobile.png);
+    background-image: url(../images/pattern-bg-mobile.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center right;
@@ -83,6 +84,6 @@ section {
 }
 
 #map {
-    // background-color: hsl(283, 100%, 21%);
+    background-color: hsl(244, 41.9%, 42.5%);
     height: 100%;
 }
