@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://creightoneli.github.io/)
+- Solution URL: [https://www.frontendmentor.io/solutions/ip-address-tracker-P00fmWHINE](https://www.frontendmentor.io/solutions/ip-address-tracker-P00fmWHINE)
 - Live Site URL: [https://creightoneli.github.io/ip-tracker](https://creightoneli.github.io/ip-tracker)
 
 ## My process
